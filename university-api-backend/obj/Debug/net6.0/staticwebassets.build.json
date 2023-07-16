@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nF9JoccbvN6bezUQi2gSngNiOfKzuHdSIEVJk4RYeMk=",
+  "Source": "university_api_backend",
+  "BasePath": "_content/university_api_backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
