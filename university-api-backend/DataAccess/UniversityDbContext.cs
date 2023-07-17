@@ -16,6 +16,7 @@ namespace university_api_backend.DataAccess
         public DbSet<Course>? Courses { get; set; }
         public DbSet<Categories>? Categories { get; set; }
         public DbSet<Student>? Students { get; set; }    
-        public DbSet<Chapter>? Chapters { get; set; }    
+        public DbSet<Chapter>? Chapters { get; set; }
+
     }
 }

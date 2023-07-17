@@ -29,6 +29,8 @@ namespace university_api_backend.Models.DataModels
         public Chapter Chapters { get; set; } = new Chapter();    
         [Required]
         public ICollection<Student> Students { get; set; } = new List<Student>();
+
+
     }
 
 

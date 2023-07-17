@@ -3,6 +3,7 @@
 namespace university_api_backend.Models.DataModels
 {
     public class Users : BaseEntity
+
     {
         [Required, StringLength(50)]
         public string Name { get; set; } = string.Empty;
@@ -15,6 +16,10 @@ namespace university_api_backend.Models.DataModels
 
         [Required]
         public string Password { get; set; } = string.Empty;
+
+
+
+
 
 
     }

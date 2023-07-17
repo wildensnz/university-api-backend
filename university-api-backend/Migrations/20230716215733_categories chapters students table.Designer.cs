@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using university_api_backend.DataAccess;
 
@@ -11,9 +12,10 @@ using university_api_backend.DataAccess;
 namespace university_api_backend.Migrations
 {
     [DbContext(typeof(UniversityDbContext))]
-    partial class UniversityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230716215733_categories chapters students table")]
+    partial class categorieschaptersstudentstable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,7 +36,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("CoursesId");
 
-                    b.ToTable("CategoriesCourse", (string)null);
+                    b.ToTable("CategoriesCourse");
                 });
 
             modelBuilder.Entity("CourseStudent", b =>
@@ -49,7 +51,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("StudentsId");
 
-                    b.ToTable("CourseStudent", (string)null);
+                    b.ToTable("CourseStudent");
                 });
 
             modelBuilder.Entity("university_api_backend.Models.DataModels.Categories", b =>
@@ -95,7 +97,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("university_api_backend.Models.DataModels.Chapter", b =>
@@ -143,7 +145,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Chapters", (string)null);
+                    b.ToTable("Chapters");
                 });
 
             modelBuilder.Entity("university_api_backend.Models.DataModels.Course", b =>
@@ -214,7 +216,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Courses", (string)null);
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("university_api_backend.Models.DataModels.Student", b =>
@@ -267,7 +269,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Students", (string)null);
+                    b.ToTable("Students");
                 });
 
             modelBuilder.Entity("university_api_backend.Models.DataModels.Users", b =>
@@ -327,7 +329,7 @@ namespace university_api_backend.Migrations
 
                     b.HasIndex("UsersId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("CategoriesCourse", b =>
