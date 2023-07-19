@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\university-api-backend\\LinqSnippets\\LinqSnippets.csproj": {}
+    "C:\\Users\\wisanchez\\source\\repos\\uni\\LinqSnippets\\LinqSnippets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\university-api-backend\\LinqSnippets\\LinqSnippets.csproj": {
+    "C:\\Users\\wisanchez\\source\\repos\\uni\\LinqSnippets\\LinqSnippets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\university-api-backend\\LinqSnippets\\LinqSnippets.csproj",
+        "projectUniqueName": "C:\\Users\\wisanchez\\source\\repos\\uni\\LinqSnippets\\LinqSnippets.csproj",
         "projectName": "LinqSnippets",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\university-api-backend\\LinqSnippets\\LinqSnippets.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\university-api-backend\\LinqSnippets\\obj\\",
+        "projectPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\LinqSnippets\\LinqSnippets.csproj",
+        "packagesPath": "C:\\Users\\wisanchez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\LinqSnippets\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\wisanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj": {
+                "projectPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,7 +59,85 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj",
+        "projectName": "university_api_backend",
+        "projectPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj",
+        "packagesPath": "C:\\Users\\wisanchez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\wisanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

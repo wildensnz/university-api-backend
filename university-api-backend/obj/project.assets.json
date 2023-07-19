@@ -11172,24 +11172,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\wisanchez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\university-api-backend\\university-api-backend\\university_api_backend.csproj",
+      "projectUniqueName": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj",
       "projectName": "university_api_backend",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\university-api-backend\\university-api-backend\\university_api_backend.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\university-api-backend\\university-api-backend\\obj\\",
+      "projectPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\university_api_backend.csproj",
+      "packagesPath": "C:\\Users\\wisanchez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wisanchez\\source\\repos\\uni\\university-api-backend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\wisanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11253,7 +11248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
