@@ -10,3 +10,11 @@ C:\Users\HP\source\repos\university-api-backend\LinqSnippets\obj\Debug\net6.0\Li
 C:\Users\HP\source\repos\university-api-backend\LinqSnippets\obj\Debug\net6.0\refint\LinqSnippets.dll
 C:\Users\HP\source\repos\university-api-backend\LinqSnippets\obj\Debug\net6.0\LinqSnippets.pdb
 C:\Users\HP\source\repos\university-api-backend\LinqSnippets\obj\Debug\net6.0\ref\LinqSnippets.dll
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.csproj.AssemblyReference.cache
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.AssemblyInfoInputs.cache
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.AssemblyInfo.cs
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.csproj.CoreCompileInputs.cache
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.dll
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\refint\LinqSnippets.dll
+C:\Users\wisanchez\source\repos\uni\LinqSnippets\obj\Debug\net6.0\LinqSnippets.pdb

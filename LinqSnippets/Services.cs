@@ -57,5 +57,16 @@ namespace LinqSnippets
 
             return courseWithLevelDeterminated;
         }
+
+        public static IEnumerable<Course> SearchCourseWithoutStudents()
+        {
+            List<Course> course = new();
+
+            var courseWithoutStudent = course.Where(course => course.Students.Any());
+
+            return 
+        }
+
+
     }
 }
