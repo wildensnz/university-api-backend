@@ -6,7 +6,6 @@ namespace university_api_backend.Models.DataModels
         [Required]
         [Key]
         public int Id { get; set; }
-        public virtual Users Users { get; set; } = new Users();
         public string CreatedBy { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public string UpdatedBy { get; set; } = string.Empty;
@@ -15,7 +14,6 @@ namespace university_api_backend.Models.DataModels
         public DateTime? DeletedAt { get; set; }
         public bool IsDeleted { get; set; } = false;
 
-        
 
     }
 }

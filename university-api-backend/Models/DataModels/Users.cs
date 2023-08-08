@@ -17,10 +17,5 @@ namespace university_api_backend.Models.DataModels
         [Required]
         public string Password { get; set; } = string.Empty;
 
-
-
-
-
-
     }
 }

@@ -44,7 +44,7 @@ namespace LinqSnippets
         {
             List<Course> course = new();
 
-            var thisCourseHasStudent = course.Where(course => course.Level == Level.Basic && course.Students.Any().ToList();
+            var thisCourseHasStudent = course.Where(course => course.Level == Level.Basic && course.Students.Any()).ToList();
 
             return thisCourseHasStudent;
         }

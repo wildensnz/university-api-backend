@@ -745,3 +745,4 @@ C:\Users\wisanchez\source\repos\uni\university-api-backend\obj\Debug\net6.0\refi
 C:\Users\wisanchez\source\repos\uni\university-api-backend\obj\Debug\net6.0\university_api_backend.pdb
 C:\Users\wisanchez\source\repos\uni\university-api-backend\obj\Debug\net6.0\university_api_backend.genruntimeconfig.cache
 C:\Users\wisanchez\source\repos\uni\university-api-backend\obj\Debug\net6.0\ref\university_api_backend.dll
+C:\Users\wisanchez\source\repos\uni\university-api-backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
